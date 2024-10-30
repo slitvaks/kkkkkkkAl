@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulators</title>
+    <!-- Šeit būs norāde uz style.css datni -->
+    <link rel="stylesheet" href="style.css"
+
+</head>
+<body>
+    <h1>Web kalkulators</h1>
+<p>Šeit var aprēķināt skaitļu summu, starpību, reizinājumu, dalījumu</p>
+    <div class="container">
+        <P></P><input type="number" id="num1" placeholder="Ievadiet pirmo skaitli">
+        <P></P><input type="number" id="num2" placeholder="Ievadiet otro skaitli">
+    </div>
+
+    <div class="container">
+        <P></P><button class="btn" onclick="saskaitit()">Saskaitīt</button> 
+        <P></P><button class="btn" onclick="atnemt()">Atņemt</button> 
+        <P></P><button class="btn" onclick="reizinat()">Reizināt</button> 
+        <P></P><button class="btn" onclick="dalit()">Dalīt</button> 
+    </div>
+
+    <div id="result">Rezultāts</div>
+    <!-- Šeit būs norāde uz scipt.js datni -->
+    <script src="script.js"></script>
+</body>
+</html>
